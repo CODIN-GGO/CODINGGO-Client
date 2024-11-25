@@ -13,13 +13,13 @@ export default {
         pretendard: ["var(--font-pretendard)", ...fontFamily.sans],
       },
       colors: {
+        black: { DEFAULT: "#06111C" },
         sky: {
           DEFAULT: "#5CAFFF",
           light: "#ADD7FF",
           dark: "#1E90FF",
         },
         gray: {
-          darkest: "#06111C",
           DEFAULT: "#414141",
           dark: "#656565",
           mideum: "#848484",
