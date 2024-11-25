@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${pretendard.variable} font-pretendard antialiased h-[100vh] bg-white text-black flex justify-center`}
+        className={`${pretendard.variable} overflow-hidden font-pretendard antialiased h-[100vh] bg-white text-black flex justify-center`}
       >
         <ClientLayout>{children}</ClientLayout>
       </body>

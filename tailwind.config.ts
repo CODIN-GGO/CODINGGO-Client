@@ -12,6 +12,9 @@ export default {
       fontFamily: {
         pretendard: ["var(--font-pretendard)", ...fontFamily.sans],
       },
+      boxShadow: {
+        DEFAULT: "2px 2px 15px rgba(6, 17, 28, 0.07), -2px -2px 15px rgba(6, 17, 28, 0.07)",
+      },
       colors: {
         black: { DEFAULT: "#06111C" },
         sky: {
@@ -21,8 +24,8 @@ export default {
         },
         gray: {
           DEFAULT: "#414141",
-          dark: "#656565",
-          mideum: "#848484",
+          dark: "#6E6E6E",
+          mideum: "#818181",
           light: "#9A9A9A",
           lightest: "#C1C1C1",
         },
