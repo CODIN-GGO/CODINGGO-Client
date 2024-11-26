@@ -1,9 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-interface BotttomNavigationProps {}
-
-const BotttomNavigation: React.FC<BotttomNavigationProps> = ({}) => {
+const BotttomNavigation = () => {
   return (
     <div className="fixed flex items-center justify-around  font-semibold text-[0.5em] box-border bottom-0 w-full h-[56px] bg-white border-gray-lightest/20 border-t-2 ">
       <div className="flex flex-col justify-evenly items-center cursor-pointer">

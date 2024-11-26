@@ -2,9 +2,7 @@ import React from "react";
 import { dummyData } from "../data/dummyData";
 import RankListItem from "./RankListItem";
 
-interface OtherRankListProps {}
-
-const OtherRankList: React.FC<OtherRankListProps> = ({}) => {
+const OtherRankList = () => {
   const rankerData = dummyData;
   return (
     <div
