@@ -17,7 +17,7 @@ const QuizDetail: React.FC<QuizDetailProps> = ({
 }) => {
   const router = useRouter();
   const handleQuiz = (id: number) => {
-    router.push(`/question/process/${id}`);
+    router.push(`/quiz/process/${id}`);
   };
 
   return (
