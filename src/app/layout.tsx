@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+
 import ClientLayout from "./(layout)/ClientLayout";
 
 const pretendard = localFont({
@@ -28,6 +29,7 @@ export default function RootLayout({
         className={`${pretendard.variable} overflow-hidden font-pretendard antialiased h-[100vh] bg-white text-black flex justify-center`}
       >
         <ClientLayout>{children}</ClientLayout>
+
       </body>
     </html>
   );
