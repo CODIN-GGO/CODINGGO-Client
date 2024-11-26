@@ -1,6 +1,10 @@
 import React from "react";
 
-const BlankQuestion = () => {
+interface BlankQuestionProps {
+  questionIndex?: number;
+}
+
+const BlankQuestion: React.FC<BlankQuestionProps> = ({}) => {
   return <div></div>;
 };
 

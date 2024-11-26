@@ -1,6 +1,11 @@
 import React from "react";
 
-const CurruentLifeHeart = () => {
+interface CurruentLifeHeartProps {
+  currentLife?: number;
+  userLife?: number;
+}
+
+const CurruentLifeHeart: React.FC<CurruentLifeHeartProps> = ({}) => {
   return <div></div>;
 };
 

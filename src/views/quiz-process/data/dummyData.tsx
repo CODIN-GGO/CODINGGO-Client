@@ -1,0 +1,40 @@
+export const questions = [
+  {
+    id: 0,
+    content: "인공지능(AI)이란 무엇인가요?",
+    score: 5,
+    type: "multiple",
+    answer: [
+      "사람이 컴퓨터를 사용하는 방법",
+      "사람이 컴퓨터에게 지시를 내리는 것",
+      "컴퓨터가 스스로 학습하고 문제를 해결하는 능력",
+      "컴퓨터로 게임을 하는 것",
+      "컴퓨터가 사람처럼 생각하고 행동하는 능력",
+    ],
+    correctAnswer: "5",
+    image_url: null,
+  },
+  {
+    id: 0,
+    content: "인공지능(AI)이란 무엇인가요?",
+    score: 5,
+    type: "multiple",
+    answer: [
+      "사람이 컴퓨터를 사용하는 방법",
+      "사람이 컴퓨터에게 지시를 내리는 것",
+      "컴퓨터가 스스로 학습하고 문제를 해결하는 능력",
+      "컴퓨터로 게임을 하는 것",
+      "컴퓨터가 사람처럼 생각하고 행동하는 능력",
+    ],
+    correctAnswer: "5",
+    image_url: null,
+  },
+  {
+    id: 2,
+    content: "인공지능(AI)이란 무엇인가요?",
+    score: 5,
+    type: "multiple",
+    answer: "3",
+    image_url: null,
+  },
+];

@@ -1,6 +1,10 @@
 import React from "react";
 
-const QuizProgressBar = () => {
+interface QuizProgressBarProps {
+  quizProgress?: number;
+}
+
+const QuizProgressBar: React.FC<QuizProgressBarProps> = ({}) => {
   return <div></div>;
 };
 

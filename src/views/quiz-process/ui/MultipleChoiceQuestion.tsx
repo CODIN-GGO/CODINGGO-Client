@@ -1,6 +1,10 @@
 import React from "react";
 
-const MultipleChoiceQuestion = () => {
+interface MultipleChoiceQuestionProps {
+  questionIndex?: number;
+}
+
+const MultipleChoiceQuestion: React.FC<MultipleChoiceQuestionProps> = ({}) => {
   return <div></div>;
 };
 
