@@ -12,6 +12,9 @@ const pretendard = localFont({
 export const metadata: Metadata = {
   title: "코딘꼬",
   description: "코딘꼬와 코딩 배우기",
+  icons: {
+    icon: "/icons/favicon.ico",
+  },
 };
 
 export default function RootLayout({

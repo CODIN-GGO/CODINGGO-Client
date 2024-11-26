@@ -1,18 +1,10 @@
-import {
-  emailAtom,
-  gradeAtom,
-  nickNameAtom,
-  passwordAtom,
-  passwordCheckAtom,
-} from "@/jotai/userAtom";
+import { emailAtom, nickNameAtom, passwordAtom, passwordCheckAtom } from "@/jotai/userAtom";
 import Input from "@/widgets/inputs/Input";
 import { useAtom } from "jotai";
 import React from "react";
 import GradeSelect from "./GradeSelect";
 
-interface RegisterFormContainerProps {}
-
-const RegisterFormContainer: React.FC<RegisterFormContainerProps> = ({}) => {
+const RegisterFormContainer = () => {
   const [email, setEmail] = useAtom(emailAtom);
   const [nickName, setNickName] = useAtom(nickNameAtom);
   const [password, setPassword] = useAtom(passwordAtom);
@@ -35,7 +27,7 @@ const RegisterFormContainer: React.FC<RegisterFormContainerProps> = ({}) => {
   };
 
   return (
-    <form className="w-ful h-full flex mt-[60px] flex-col gap-6">
+    <form className="w-ful h-full flex mt-[50px] flex-col gap-4">
       <div className="flex flex-col gap-2">
         <p className="pl-2 text-[14px]">이메일</p>
         <Input onChange={handleEmail} placeholder="이메일" value={email} />
