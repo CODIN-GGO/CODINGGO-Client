@@ -13,7 +13,7 @@ const RegisterPage = () => {
     setFormDisplay(true);
   };
   return (
-    <div className="box-border px-[35px] pb-[4em] pt-[6em] h-full flex flex-col justify-between">
+    <div className="box-border px-[35px] pb-[4em] pt-[5em] h-full flex flex-col justify-between">
       <RegisterTitle />
       {formDispay ? (
         <>

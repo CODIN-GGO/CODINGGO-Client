@@ -7,7 +7,7 @@ import LoginFormContainer from "./ui/LoginFormContainer";
 
 const LoginPage = () => {
   return (
-    <div className="box-border px-[35px] pb-[4em] pt-[151px] h-full flex flex-col">
+    <div className="box-border px-[35px] pb-[4em]  pt-[5em] h-full flex flex-col">
       <LoginTtile />
       <LoginFormContainer />
       <LoginCharacter />

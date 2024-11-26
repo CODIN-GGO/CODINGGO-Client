@@ -27,7 +27,7 @@ const RegisterFormContainer = () => {
   };
 
   return (
-    <form className="w-ful h-full flex mt-[50px] flex-col gap-4">
+    <form className="w-ful h-full flex mt-[50px] flex-col gap-2">
       <div className="flex flex-col gap-2">
         <p className="pl-2 text-[14px]">이메일</p>
         <Input onChange={handleEmail} placeholder="이메일" value={email} />
